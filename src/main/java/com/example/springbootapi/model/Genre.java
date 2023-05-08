@@ -1,4 +1,4 @@
-package com.example.springbootapi.model.book;
+package com.example.springbootapi.model;
 
 public enum Genre {
     FANTASY,
