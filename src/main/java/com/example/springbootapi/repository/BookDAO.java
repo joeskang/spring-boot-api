@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface BookDAO extends JpaRepository<Book, String> {
-    public Book findBookByIsbn10();
+    public Book findBookByIsbn10(String isbn);
     public List<Book> findBooksByAuthor();
-    public List<Book> findBooksByTitle();
+    public Book findBookByTitle(String title);
 }

@@ -1,11 +1,11 @@
 package com.example.springbootapi.model.book;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.NonNull;
-import lombok.ToString;
+import lombok.*;
 
 @Entity
+@Getter
+@Setter
 public class Book {
     @Id
     private String isbn10;
